@@ -24,6 +24,8 @@ main {
     grid-template-columns: var(--image-width) 1fr; /*Width for image should be fixed to the width dimension of the image file when screen is big enough*/
     grid-template-areas: "image info";
     gap: var(--grid-gap);
+    margin: clamp(1rem, 2vw, 2rem) auto;
+    width: min(95%, 1600px);
 }
 
 .image {

@@ -32,6 +32,14 @@ main {
     grid-area: image;
 }
 
+.info {
+    grid-area: info;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
 .image__picture, .image__img {
     width: 100%;
 }

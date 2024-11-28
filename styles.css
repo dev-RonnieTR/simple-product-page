@@ -28,3 +28,11 @@ main {
     grid-area: info;
 }
 
+.image__picture, .image__img {
+    width: 100%;
+}
+
+/* MODULES */
+img {
+    display: block;
+}

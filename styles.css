@@ -80,19 +80,24 @@ img {
 .name, .price {
     font-size: var(--font-size-large);
 }
-.description, .highlights {
+.description, .highlights, .details__feature__value:not(.price)  {
     font-size: var(--font-size-regular);
 }
-.highlights__title, .name, .price {
+.highlights__title, .name, .price, .details__feature__value {
     font-weight: var(--font-weight-bold);
 }
 .highlights__list__item {
     font-weight: var(--font-weight-regular);
 }
 .navigation__list__item {
-    font-size: var(--font-size-small);
     font-weight: 500;
 }
-.navigation__list__item:last-of-type {
+.navigation__list__item:last-of-type, .details__feature__label {
     font-weight: var(--font-weight-light);
+}
+.details__feature__label {
+    color: var(--color-2);
+}
+.navigation__list__item, .details__feature__label {
+    font-size: var(--font-size-small);
 }

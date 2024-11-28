@@ -79,12 +79,11 @@ img {
 /* TYPOGRAPHY */
 .name, .price {
     font-size: var(--font-size-large);
-    font-weight: var(--font-weight-bold);
 }
 .description, .highlights {
     font-size: var(--font-size-regular);
 }
-.highlights__title {
+.highlights__title, .name, .price {
     font-weight: var(--font-weight-bold);
 }
 .highlights__list__item {

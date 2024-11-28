@@ -12,12 +12,12 @@ html {
 
 :root {
     --font-size-root: 16px;
-    --image-width: 29.5rem
+    --image-width: 29.5rem; /*When rem = 16px, 29.5rem = 472px which is the width of the 2x image */
 }
 
 main {
     display: grid;
-    grid-template-columns: var(--image-width) 1fr;
+    grid-template-columns: var(--image-width) 1fr; /*Width for image should be fixed to the width dimension of the image file when screen is big enough*/
     grid-template-areas: "image info";
 }
 

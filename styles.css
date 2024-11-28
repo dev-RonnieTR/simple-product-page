@@ -1,0 +1,15 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-size: var(--font-size-root);
+}
+
+:root {
+    --font-size-root: 16px;
+}

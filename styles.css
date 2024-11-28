@@ -35,6 +35,14 @@ main {
     width: 100%;
 }
 
+.navigation__list {
+    display: flex;
+    list-style: none;
+}
+.navigation__list__item:not(.home):before {
+    content: "\00A0-\00A0";
+}
+
 /* MODULES */
 img {
     display: block;
@@ -53,4 +61,11 @@ img {
 }
 .highlights__list__item {
     font-weight: 400;
+}
+.navigation__list__item {
+    font-size: var(--font-size-small);
+    font-weight: 500;
+}
+.navigation__list__item:last-of-type {
+    font-weight: 300;
 }

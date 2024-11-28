@@ -72,6 +72,12 @@ main {
     border-radius: 0.5rem;
 }
 
+.add-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
 .add-to-wishlist {
     display: flex;
     justify-content: center;

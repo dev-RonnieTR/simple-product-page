@@ -109,7 +109,7 @@ img {
 .name, .price {
     font-size: var(--font-size-large);
 }
-.description, .highlights, .details__feature__value:not(.price)  {
+.description, .highlights__title, .highlights__list__item, .details__feature__value:not(.price)  {
     font-size: var(--font-size-regular);
 }
 .highlights__title, .name, .price, .details__feature__value, .add-to-wishlist {

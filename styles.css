@@ -12,4 +12,19 @@ html {
 
 :root {
     --font-size-root: 16px;
+    --image-width: 29.5rem
 }
+
+main {
+    display: grid;
+    grid-template-columns: var(--image-width) 1fr;
+    grid-template-areas: "image info";
+}
+
+.image {
+    grid-area: image;
+}
+.product {
+    grid-area: info;
+}
+

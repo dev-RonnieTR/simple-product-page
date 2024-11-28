@@ -72,6 +72,12 @@ main {
     border-radius: 0.5rem;
 }
 
+.add-to-wishlist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* MODULES */
 img {
     display: block;

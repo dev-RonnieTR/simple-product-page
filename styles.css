@@ -63,6 +63,10 @@ main {
     content: "\00A0-\00A0";
 }
 
+.name, .highlights__title {
+    margin-bottom: 1em;
+}
+
 .details {
     display: flex;
     gap: 3rem;

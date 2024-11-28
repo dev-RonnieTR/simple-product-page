@@ -17,6 +17,13 @@ html {
     --font-size-small: 0.875rem;
     --image-width: 29.5rem; /*When rem = 16px, 29.5rem = 472px which is the width of the 2x image */
     --grid-gap: 3rem;
+    --color-1: #000000;
+    --color-2: #394150;
+    --color-3: #652CD1;
+    --color-4: #D2D5DA;
+    --color-5: #F3F4F6;
+    --color-6: #F9FAFB;
+    --color-7: #FFFFFF;
 }
 
 main {

@@ -59,6 +59,14 @@ main {
     content: "\00A0-\00A0";
 }
 
+.details {
+    display: flex;
+    
+    background-color: var(--color-5);
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
 /* MODULES */
 img {
     display: block;

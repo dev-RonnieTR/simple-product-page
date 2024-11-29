@@ -96,7 +96,7 @@ main {
 }
 .add-to-cart {
     background-color: var(--color-3);
-    border: 1px solid var(--color-3)
+    border: 1px solid var(--color-3);
 }
 .add-to-wishlist {
     display: flex;
@@ -162,4 +162,10 @@ button {
 }
 .highlights__list__item::before {
     content: "•";
+}
+
+@media (min-width: 1281px) {
+    :root {
+        --font-size-root: clamp(16px, 1.25vw, 20px)
+    }
 }

@@ -75,6 +75,7 @@ main {
     background-color: var(--color-5);
     padding: 1rem;
     border-radius: 0.5rem;
+    max-width: 100%;
 }
 .details__feature {
     display: flex;
@@ -167,5 +168,34 @@ button {
 @media (min-width: 1281px) {
     :root {
         --font-size-root: clamp(16px, 1.25vw, 20px)
+    }
+}
+
+@media (max-width: 923px) {
+    main {
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto;
+        grid-template-areas: 
+        "image" 
+        "info";
+    }
+    .info {
+        gap: 2rem;
+    }
+    .add-buttons, .add-buttons__item {
+        width: 100%;
+    }
+    .details {
+        align-self: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .add-buttons {
+        flex-direction: column;
+    }
+    .details {
+        justify-content: center;
+        flex-wrap: wrap;
     }
 }

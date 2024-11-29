@@ -142,3 +142,16 @@ button {
 .add-buttons__item {
     font-size: var(--font-size-regular);
 }
+
+.highlights__list {
+    padding-left: 0.7em;
+}
+.highlights__list__item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.5em;
+}
+.highlights__list__item::before {
+    content: "•";
+}

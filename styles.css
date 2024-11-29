@@ -67,6 +67,9 @@ main {
 .name, .highlights__title {
     margin-bottom: 1em;
 }
+.name {
+    width: min(100%, 13em);
+}
 
 .details {
     display: flex;

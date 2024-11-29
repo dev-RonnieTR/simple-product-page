@@ -53,6 +53,7 @@ main {
 
 .image__picture, .image__img {
     width: 100%;
+    border-radius: 0.5rem;
 }
 
 .navigation__list {

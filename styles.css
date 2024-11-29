@@ -163,6 +163,7 @@ button {
     justify-content: flex-start;
     align-items: center;
     gap: 0.5em;
+    margin-top: 0.5em;
 }
 .highlights__list__item::before {
     content: "•";
